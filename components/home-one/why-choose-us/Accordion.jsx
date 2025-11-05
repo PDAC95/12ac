@@ -11,12 +11,12 @@ function Accordion() {
 						data-bs-toggle="collapse"
 						data-bs-target="#collapseOne"
 					>
-						01/ Project idea
+						01/ Discovery & Strategy
 					</button>
 				</h3>
 				<div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#aximo-accordion">
 					<div className="accordion-body">
-						The process starts with a detailed discussion with the client to understand their idea & goals.
+						We start with deep conversations to understand your goals, challenges, and what success looks like for your business.
 					</div>
 				</div>
 			</FadeInStaggerTwoChildren>
@@ -28,12 +28,12 @@ function Accordion() {
 						data-bs-toggle="collapse"
 						data-bs-target="#collapseTwo"
 					>
-						02/ Brainstorming
+						02/ Design & Development
 					</button>
 				</h3>
 				<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
 					<div className="accordion-body">
-						rainstorming is a group creativity technique in which members attempt to find a conclusion.
+						Our team builds your solution using agile methods—keeping you in the loop with regular updates and demos.
 					</div>
 				</div>
 			</FadeInStaggerTwoChildren>
@@ -45,12 +45,12 @@ function Accordion() {
 						data-bs-toggle="collapse"
 						data-bs-target="#collapseThree"
 					>
-						03/ Launch
+						03/ Launch & Support
 					</button>
 				</h3>
 				<div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
 					<div className="accordion-body">
-						The completed design assets or final product are delivered with necessary documentation.
+						We deploy your project and stick around to ensure everything runs smoothly, with ongoing support when you need it.
 					</div>
 				</div>
 			</FadeInStaggerTwoChildren>

@@ -1,74 +1,40 @@
 import About from "@/components/home-one/about";
-import AutoSlider from "@/components/home-one/auto-slider";
 import Hero from "@/components/home-one/hero";
 import Projects from "@/components/home-one/projects";
 import Services from "@/components/home-one/services";
-import Teams from "@/components/home-one/teams";
-import Testimonial from "@/components/home-one/testimonial";
 import WhyChooseUs from "@/components/home-one/why-choose-us";
-
-// Teams images
-import Team1Img from "@/public/images/team/team1.png";
-import Team2Img from "@/public/images/team/team2.png";
-import Team3Img from "@/public/images/team/team3.png";
-import Team4Img from "@/public/images/team/team4.png";
 
 const servicesData = [
 	{
 		id: crypto.randomUUID(),
-		title: "UI/UX Design",
+		title: "Custom Software & Apps",
 		description:
-			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
-		icon: "icon-design-tools",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Graphic Design",
-		description:
-			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
-		icon: "icon-branding",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Web Design",
-		description:
-			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
+			"We build web platforms, mobile apps, and enterprise software tailored to your business needs. From concept to deployment, we create scalable solutions that grow with you.",
 		icon: "icon-web",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Motion Graphics",
+		title: "AI Solutions & Automation",
 		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
+			"We integrate intelligent features that work smarter for you. From chatbots to predictive analytics, we help you automate processes and enhance user experiences with cutting-edge AI.",
 		icon: "icon-design-thinking",
 	},
-];
-const teamsData = [
 	{
 		id: crypto.randomUUID(),
-		name: "Andrew Mark",
-		designation: "Creative Director",
-		img: Team1Img,
+		title: "Digital Marketing & Branding",
+		description:
+			"We amplify your brand and drive results. SEO, social media, content strategy, and paid ads—we create data-driven campaigns that turn visibility into growth.",
+		icon: "icon-branding",
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Jack Taylor",
-		designation: "Senior Designer",
-		img: Team2Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Martine Joy",
-		designation: "Project Manager",
-		img: Team3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Adam Straw",
-		designation: "Web Developer",
-		img: Team4Img,
+		title: "Dedicated Teams",
+		description:
+			"Need to scale fast? We provide expert developers, designers, and project managers who integrate seamlessly into your workflow. Hire by the month, project, or sprint.",
+		icon: "icon-design-tools",
 	},
 ];
+
 export default function HomeOne() {
 	return (
 		<>
@@ -77,9 +43,6 @@ export default function HomeOne() {
 			<About />
 			<Projects />
 			<WhyChooseUs />
-			<Testimonial />
-			<AutoSlider />
-			<Teams teams={teamsData} />
 		</>
 	);
 }

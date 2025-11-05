@@ -10,16 +10,15 @@ function AboutCounter() {
 					</span>
 					+
 				</h2>
-				<p>Years of experience</p>
+				<p>Years of expertise</p>
 			</div>
 			<div className="aximo-counter-data">
 				<h2 className="aximo-counter-number">
 					<span className="aximo-counter">
-						<CountUp end={120} duration={3} redraw={true} enableScrollSpy />
+						<CountUp end={6} duration={3} redraw={true} enableScrollSpy />
 					</span>
-					k
 				</h2>
-				<p>Successful projects</p>
+				<p>Countries with active projects</p>
 			</div>
 			<div className="aximo-counter-data">
 				<h2 className="aximo-counter-number">
@@ -28,7 +27,7 @@ function AboutCounter() {
 					</span>
 					%
 				</h2>
-				<p>Client satisfaction rate</p>
+				<p>Commitment to your success</p>
 			</div>
 		</div>
 	);

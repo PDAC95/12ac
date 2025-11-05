@@ -12,19 +12,19 @@ function About() {
 					<div className="row">
 						<div className="col-lg-7">
 							<h2>
+								We turn your{" "}
 								<span className="aximo-title-animation">
-									We make your
+									vision
 									<span className="aximo-title-icon">
 										<Image src={Star2Img} alt="Star2Img" />
 									</span>
 								</span>{" "}
-								business stand out
+								into reality
 							</h2>
 						</div>
 						<div className="col-lg-4 offset-lg-1 d-flex align-items-center">
 							<p>
-								We work closely with our clients to know their objectives, target audience, unique
-								needs, and practical design solutions.
+								We work closely with you to understand your goals, challenges, and opportunities—then build solutions that actually move the needle.
 							</p>
 						</div>
 					</div>

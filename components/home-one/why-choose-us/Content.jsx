@@ -5,21 +5,16 @@ function Content() {
 	return (
 		<div className="aximo-default-content">
 			<h2>
+				How we work{" "}
 				<span className="aximo-title-animation">
-					Our high-quality
+					with you
 					<span className="aximo-title-icon">
 						<Image src={Star2Img} alt="Star2Img" />
 					</span>
 				</span>
-				working processes
 			</h2>
 			<p>
-				We focus at every stage on effective communication and collaboration between the client and ensuring
-				that the final design meets the client s objectives and expectations.
-			</p>
-			<p>
-				It is important to note that these are simplified steps, and the actual work process may vary depending
-				on the complexity of the project.
+				We believe in transparency and collaboration at every step. From discovery to delivery, you're part of the process—ensuring the final solution truly fits your vision.
 			</p>
 		</div>
 	);

@@ -8,7 +8,6 @@ function HeroThumbs() {
 		<FadeInRight className="aximo-hero-thumb" style={{ position: "relative" }}>
 			<Image src={HeroThumbImg} alt="Hero thumb" sizes="100vw" priority />
 			<div
-				className="video-overlay-group"
 				style={{
 					position: "absolute",
 					top: "50%",
@@ -19,26 +18,6 @@ function HeroThumbs() {
 				}}
 			>
 				<Image src={PlayBtnImg} alt="Play video" width={80} height={80} />
-				<div
-					className="video-tooltip"
-					style={{
-						position: "absolute",
-						bottom: "-50px",
-						left: "50%",
-						transform: "translateX(-50%)",
-						backgroundColor: "#000",
-						color: "#fff",
-						padding: "8px 16px",
-						borderRadius: "8px",
-						whiteSpace: "nowrap",
-						fontSize: "14px",
-						opacity: 0,
-						transition: "opacity 0.3s ease",
-						pointerEvents: "none",
-					}}
-				>
-					See how we develop custom software
-				</div>
 			</div>
 		</FadeInRight>
 	);

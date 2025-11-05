@@ -12,39 +12,45 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Product Design",
-		description: "Developing the look and feel of physical products, aesthetics, and functionality.",
+		title: "AI Integration & Automation",
+		description: "Smart chatbots, predictive analytics, and intelligent process automation that save time and money.",
 		img: Project1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Logo and Branding",
-		description: "Creating or refreshing a company&apos;s logo and developing a cohesive visual identity.",
+		title: "Custom Software Development",
+		description: "We turn your ideas into reality—from simple tools to complex platforms tailored to your business needs.",
 		img: Project2Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "App UI/UX Design",
-		description: "Designing the UI/UXe for mobile apps and web applications to ensure usability & engagement.",
+		title: "E-commerce Development",
+		description: "Complete online stores with secure payments, inventory systems, and conversion-optimized experiences.",
 		img: Project3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Packaging Design",
-		description: "Creating packaging solutions for products that not only protect attract customers on store.",
+		title: "Mobile App Development",
+		description: "iOS and Android apps that users love—from concept to App Store launch.",
 		img: Project4Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Product Design",
-		description: "Developing the look and feel of physical products, aesthetics, and functionality.",
+		title: "Dedicated Development Teams",
+		description: "Expert developers and designers who integrate with your team to accelerate delivery.",
 		img: Project1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Logo and Branding",
-		description: "Creating or refreshing a company&apos;s logo and developing a cohesive visual identity.",
+		title: "Digital Marketing & SEO",
+		description: "Data-driven strategies that boost visibility, drive traffic, and convert visitors into customers.",
 		img: Project2Img,
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Web Development",
+		description: "Fast, responsive, and scalable websites built to perform—from landing pages to full web applications.",
+		img: Project3Img,
 	},
 ];
 
@@ -74,13 +80,13 @@ function Projects() {
 			<div className="container">
 				<div className="aximo-section-title center light">
 					<h2>
-						Have a wide range of
 						<span className="aximo-title-animation">
-							creative projects
+							Services that make
 							<span className="aximo-title-icon">
 								<Image src={Star2Img} alt="Star2Img" />
 							</span>
-						</span>
+						</span>{" "}
+						an impact
 					</h2>
 				</div>
 			</div>

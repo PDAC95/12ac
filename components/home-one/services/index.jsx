@@ -5,13 +5,13 @@ import ServiceCard from "./ServiceCard";
 
 function Services({ services }) {
 	return (
-		<div className="section aximo-section-padding4">
+		<div id="services" className="section aximo-section-padding4">
 			<div className="container">
 				<div className="aximo-section-title center">
 					<h2>
-						We provide effective
+						Technology that moves
 						<span className="aximo-title-animation">
-							design solutions
+							businesses forward
 							<span className="aximo-title-icon">
 								<Image src={Star2Img} alt="Star2Img" />
 							</span>
