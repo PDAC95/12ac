@@ -45,8 +45,8 @@ function HeroContent() {
 				</div>
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren>
-				<Link className="aximo-call-btn" href="/contact-us">
-					Start Your Project <i className="icon-call"></i>
+				<Link className="aximo-call-btn" href="/about-us">
+					How We Work <i className="icon-arrow-right"></i>
 				</Link>
 				<div className="aximo-hero-shape">
 					<Image src={ShapeImg} alt="ShapeImg" />
