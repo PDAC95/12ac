@@ -16,31 +16,52 @@ import Team4Img from "@/public/images/team/team4.png";
 const servicesData = [
 	{
 		id: crypto.randomUUID(),
-		title: "UI/UX Design",
+		title: "Web Development",
 		description:
-			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
+			"Custom websites with responsive design, SEO optimization, AI integration, and performance tuning for modern digital experiences.",
+		icon: "icon-web",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Mobile Apps",
+		description:
+			"Native iOS and Android apps, cross-platform development with React Native, and progressive web applications (PWA).",
 		icon: "icon-design-tools",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "E-Commerce",
+		description:
+			"Complete e-commerce platforms with secure payment gateways, inventory management, and optimized performance for sales growth.",
+		icon: "icon-branding",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Software Development",
+		description:
+			"Custom software solutions, cloud-based applications, API development and integration for enterprise-level systems.",
+		icon: "icon-design-thinking",
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "Graphic Design",
 		description:
-			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
+			"Brand identity, logo design, marketing materials, and social media graphics that make your business stand out.",
 		icon: "icon-branding",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Web Design",
+		title: "Digital Marketing",
 		description:
-			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
+			"SEO, social media management, PPC advertising, content marketing, and analytics to grow your online presence.",
 		icon: "icon-web",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Motion Graphics",
+		title: "Branding Solutions",
 		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
-		icon: "icon-design-thinking",
+			"Brand strategy, positioning, reputation management, and social media presence to build a strong brand identity.",
+		icon: "icon-design-tools",
 	},
 ];
 const teamsData = [
