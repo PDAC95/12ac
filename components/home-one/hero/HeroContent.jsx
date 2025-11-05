@@ -77,7 +77,7 @@ function HeroContent() {
 						</div>
 					</div>
 					<div className="aximo-hero-user-data">
-						<p>Trusted by businesses worldwide</p>
+						<p>See how we transform ideas into reality</p>
 					</div>
 				</div>
 			</FadeInStaggerTwoChildren>
