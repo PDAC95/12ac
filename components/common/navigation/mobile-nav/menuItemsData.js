@@ -1,180 +1,60 @@
 export const menuItemsData = [
 	{
-		title: "Demo",
-		url: "#",
-		submenu: [
-			{
-				title: "Design Agency",
-				url: "/",
-			},
-			{
-				title: "Startup Agency",
-				url: "home-two",
-			},
-			{
-				title: "SEO Agency",
-				url: "home-three",
-			},
-			{
-				title: "Business Consultation",
-				url: "home-four",
-			},
-			{
-				title: "Digital Marketing",
-				url: "home-five",
-			},
-			{
-				title: "Interior Design Agency",
-				url: "home-six",
-			},
-			{
-				title: "Advertising agency",
-				url: "home-seven",
-			},
-		],
+		title: "Home",
+		url: "/",
 	},
 	{
 		title: "About Us",
 		url: "about-us",
 	},
 	{
-		title: "Pages",
+		title: "Services",
 		url: "#",
 		submenu: [
 			{
-				title: "About Us",
-				url: "about-us",
+				title: "All Services",
+				url: "service",
 			},
 			{
-				title: "Pricing",
-				url: "pricing",
+				title: "Web Development",
+				url: "service/web-development",
 			},
 			{
-				title: "Blog",
-				url: "#",
-				submenu: [
-					{
-						title: "Our Blog",
-						url: "blog",
-					},
-					{
-						title: "Blog Grid",
-						url: "blog-grid",
-					},
-					{
-						title: "Blog Details",
-						url: "single-blog",
-					},
-				],
+				title: "Mobile Apps",
+				url: "service/mobile-apps",
 			},
 			{
-				title: "Service",
-				url: "#",
-				submenu: [
-					{
-						title: "Service",
-						url: "service",
-					},
-					{
-						title: "Service Details",
-						url: "single-service",
-					},
-				],
+				title: "E-Commerce",
+				url: "service/ecommerce",
 			},
 			{
-				title: "Team",
-				url: "#",
-				submenu: [
-					{
-						title: "Team",
-						url: "team",
-					},
-					{
-						title: "Team Details",
-						url: "single-team",
-					},
-				],
+				title: "Software Development",
+				url: "service/software-development",
 			},
 			{
-				title: "Portfolio",
-				url: "#",
-				submenu: [
-					{
-						title: "Portfolio One Column",
-						url: "portfolio-one",
-					},
-					{
-						title: "Portfolio Two Column",
-						url: "portfolio-two",
-					},
-					{
-						title: "Single Portfolio",
-						url: "single-portfolio",
-					},
-				],
+				title: "Graphic Design",
+				url: "service/graphic-design",
 			},
 			{
-				title: "Utility",
-				url: "#",
-				submenu: [
-					{
-						title: "Faq",
-						url: "faq",
-					},
-					{
-						title: "Error 404",
-						url: "error-page",
-					},
-					{
-						title: "Testimonial",
-						url: "testimonial",
-					},
-					{
-						title: "Coming Soon",
-						url: "coming-soon",
-					},
-				],
+				title: "Digital Marketing",
+				url: "service/digital-marketing",
 			},
 			{
-				title: "Account",
-				url: "#",
-				submenu: [
-					{
-						title: "Sign Up",
-						url: "sign-up",
-					},
-					{
-						title: "Sign In",
-						url: "sign-in",
-					},
-					{
-						title: "Reset Password",
-						url: "reset-password",
-					},
-				],
+				title: "Branding Solutions",
+				url: "service/branding",
 			},
 		],
+	},
+	{
+		title: "Portfolio",
+		url: "portfolio-one",
 	},
 	{
 		title: "Blog",
 		url: "blog",
-		submenu: [
-			{
-				title: "Blog",
-				url: "blog",
-			},
-			{
-				title: "Blog Grid",
-				url: "blog-grid",
-			},
-			{
-				title: "Blog Details",
-				url: "single-blog",
-			},
-		],
 	},
 	{
-		title: "Contact Us",
+		title: "Contact",
 		url: "contact-us",
 	},
 ];

@@ -17,78 +17,28 @@ function Header() {
 					<HeaderLogo />
 					<div className="menu-block-wrapper">
 						<DesktopNav>
-							<NavItem dropdown title="Demo">
-								<Dropdown>
-									<DropdownItem url="/">Design Agency</DropdownItem>
-									<DropdownItem url="home-two">Startup Agency</DropdownItem>
-									<DropdownItem url="home-three">SEO Agency</DropdownItem>
-									<DropdownItem url="home-four">Business Consultation</DropdownItem>
-									<DropdownItem url="home-five">Digital Marketing</DropdownItem>
-									<DropdownItem url="home-six">Interior Design Agency</DropdownItem>
-									<DropdownItem url="home-seven">Advertising agency</DropdownItem>
-								</Dropdown>
-							</NavItem>
+							<NavItem url="/">Home</NavItem>
 							<NavItem url="about-us">About Us</NavItem>
-							<NavItem dropdown title="Pages">
+							<NavItem dropdown title="Services">
 								<Dropdown>
-									<DropdownItem url="about-us">About Us</DropdownItem>
-									<DropdownItem url="pricing">Pricing</DropdownItem>
-									<DropdownItem dropdown title="Blog">
-										<Dropdown noShape>
-											<DropdownItem url="blog">Our Blog</DropdownItem>
-											<DropdownItem url="blog-grid">Blog Grid</DropdownItem>
-											<DropdownItem url="single-blog">Blog Details</DropdownItem>
-										</Dropdown>
-									</DropdownItem>
-									<DropdownItem dropdown title="Service">
-										<Dropdown noShape>
-											<DropdownItem url="service">Service</DropdownItem>
-											<DropdownItem url="single-service">Service Details</DropdownItem>
-										</Dropdown>
-									</DropdownItem>
-									<DropdownItem dropdown title={"Team"}>
-										<Dropdown noShape>
-											<DropdownItem url="team">Team</DropdownItem>
-											<DropdownItem url="single-team">Team Details</DropdownItem>
-										</Dropdown>
-									</DropdownItem>
-									<DropdownItem dropdown title={"Portfolio"}>
-										<Dropdown noShape>
-											<DropdownItem url="portfolio-one">Portfolio One Column</DropdownItem>
-											<DropdownItem url="portfolio-two">Portfolio Two Column</DropdownItem>
-											<DropdownItem url="single-portfolio">Portfolio Details</DropdownItem>
-										</Dropdown>
-									</DropdownItem>
-									<DropdownItem dropdown title="Utility">
-										<Dropdown noShape>
-											<DropdownItem url="faq">FAQ</DropdownItem>
-											<DropdownItem url="error-page">Error Page</DropdownItem>
-											<DropdownItem url="testimonial">Testimonial</DropdownItem>
-											<DropdownItem url="coming-soon">Coming Soon</DropdownItem>
-										</Dropdown>
-									</DropdownItem>
-									<DropdownItem dropdown title="Account">
-										<Dropdown noShape>
-											<DropdownItem url="sign-up">Sign Up</DropdownItem>
-											<DropdownItem url="sign-in">Sign In</DropdownItem>
-											<DropdownItem url="reset-password">Reset Password</DropdownItem>
-										</Dropdown>
-									</DropdownItem>
+									<DropdownItem url="service">All Services</DropdownItem>
+									<DropdownItem url="service/web-development">Web Development</DropdownItem>
+									<DropdownItem url="service/mobile-apps">Mobile Apps</DropdownItem>
+									<DropdownItem url="service/ecommerce">E-Commerce</DropdownItem>
+									<DropdownItem url="service/software-development">Software Development</DropdownItem>
+									<DropdownItem url="service/graphic-design">Graphic Design</DropdownItem>
+									<DropdownItem url="service/digital-marketing">Digital Marketing</DropdownItem>
+									<DropdownItem url="service/branding">Branding Solutions</DropdownItem>
 								</Dropdown>
 							</NavItem>
-							<NavItem dropdown title="Blog">
-								<Dropdown>
-									<DropdownItem url="blog">Our Blog</DropdownItem>
-									<DropdownItem url="blog-grid">Blog Grid</DropdownItem>
-									<DropdownItem url="single-blog">Blog Details</DropdownItem>
-								</Dropdown>
-							</NavItem>
-							<NavItem url="contact-us">Contact Us</NavItem>
+							<NavItem url="portfolio-one">Portfolio</NavItem>
+							<NavItem url="blog">Blog</NavItem>
+							<NavItem url="contact-us">Contact</NavItem>
 						</DesktopNav>
 					</div>
 					<HeaderButton />
 
-					<MobileNavbar menuItemsData={menuItemsData} title="Aximo" />
+					<MobileNavbar menuItemsData={menuItemsData} title="AC95" />
 				</nav>
 			</div>
 		</header>
