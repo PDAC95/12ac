@@ -25,6 +25,7 @@ import Header from "@/components/home-one/header";
 import "../../public/css/app.css";
 import "../../public/css/main.css";
 import "../../public/css/mobile-nav.css";
+import "../../public/css/tooltips.css";
 
 export const metadata = {
 	title: "Aximo || Responsive Next.js Template",

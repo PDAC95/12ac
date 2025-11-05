@@ -1,0 +1,7 @@
+.video-overlay-group:hover .video-tooltip {
+	opacity: 1 !important;
+}
+
+.video-overlay-small:hover .video-tooltip-small {
+	opacity: 1 !important;
+}

@@ -37,14 +37,9 @@ function HeroThumbs() {
 						pointerEvents: "none",
 					}}
 				>
-					See how we build innovative solutions
+					See how we develop custom software
 				</div>
 			</div>
-			<style jsx>{`
-				.video-overlay-group:hover .video-tooltip {
-					opacity: 1;
-				}
-			`}</style>
 		</FadeInRight>
 	);
 }

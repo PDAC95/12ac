@@ -63,7 +63,7 @@ function HeroContent() {
 										pointerEvents: "none",
 									}}
 								>
-									See how we develop custom software
+									See how we develop AI solutions
 								</div>
 							</div>
 						</div>
@@ -99,7 +99,7 @@ function HeroContent() {
 										pointerEvents: "none",
 									}}
 								>
-									See our creative design process
+									See how we develop digital marketing
 								</div>
 							</div>
 						</div>
@@ -135,7 +135,7 @@ function HeroContent() {
 										pointerEvents: "none",
 									}}
 								>
-									See how we scale businesses
+									See how we develop dedicated teams
 								</div>
 							</div>
 						</div>
@@ -144,11 +144,6 @@ function HeroContent() {
 						<p>See how we transform ideas into reality</p>
 					</div>
 				</div>
-				<style jsx>{`
-					.video-overlay-small:hover .video-tooltip-small {
-						opacity: 1;
-					}
-				`}</style>
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren>
 				<Link className="aximo-call-btn" href="/about-us">
