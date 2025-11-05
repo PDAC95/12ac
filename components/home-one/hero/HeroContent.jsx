@@ -6,7 +6,7 @@ import StarImg from "../../../public/images/v1/star.png";
 import User1Img from "../../../public/images/v1/user1.png";
 import User2Img from "../../../public/images/v1/user2.png";
 import User3Img from "../../../public/images/v1/user3.png";
-import PlayBtnImg from "../../../public/images/v1/play-btn.svg";
+import PlayBtnImg from "../../../public/images/icon/play-circle.svg";
 function HeroContent() {
 	return (
 		<FadeInStaggerTwo className="aximo-hero-content">
