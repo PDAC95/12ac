@@ -12,9 +12,10 @@ function HeroContent() {
 			<FadeInStaggerTwoChildren>
 				<h1>
 					<span className="aximo-title-animation">
-						Shaping Your Vision
+						Shaping Your
 						<Image src={StarImg} alt="StarImg" />
-					</span>
+					</span>{" "}
+					Vision
 					<br />
 					<span style={{ fontSize: '0.8em' }}>with Technology</span>
 				</h1>
