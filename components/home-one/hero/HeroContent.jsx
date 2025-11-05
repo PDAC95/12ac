@@ -12,40 +12,39 @@ function HeroContent() {
 			<FadeInStaggerTwoChildren>
 				<h1>
 					<span className="aximo-title-animation">
-						A creative
+						Shaping Your
 						<Image src={StarImg} alt="StarImg" />
 					</span>{" "}
-					design studio
+					Vision with Technology
 				</h1>
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren>
 				<p>
-					{`We're a creative design studio specializing in meeting the needs of the new generation.
-								We offer innovative and cutting-edge design solutions to help our clients stand out in
-								today&apos;s fast-paced.`}
+					{`We empower businesses through custom software solutions that drive efficiency, innovation, and growth.
+					Combining creativity and technical expertise to keep our clients ahead in the ever-evolving digital landscape.`}
 				</p>
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren>
 				<div className="aximo-hero-user-wrap">
 					<div className="aximo-hero-user-thumb">
 						<div className="aximo-hero-user-thumb-item">
-							<Image src={User1Img} alt="User1Img" />
+							<Image src={User1Img} alt="Client 1" />
 						</div>
 						<div className="aximo-hero-user-thumb-item">
-							<Image src={User3Img} alt="User3Img" />
+							<Image src={User3Img} alt="Client 2" />
 						</div>
 						<div className="aximo-hero-user-thumb-item">
-							<Image src={User2Img} alt="User2Img" />
+							<Image src={User2Img} alt="Client 3" />
 						</div>
 					</div>
 					<div className="aximo-hero-user-data">
-						<p>Believed by more than a thousand people</p>
+						<p>Trusted by businesses worldwide</p>
 					</div>
 				</div>
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren>
 				<Link className="aximo-call-btn" href="/contact-us">
-					Book a free consultation <i className="icon-call"></i>
+					Start Your Project <i className="icon-call"></i>
 				</Link>
 				<div className="aximo-hero-shape">
 					<Image src={ShapeImg} alt="ShapeImg" />
