@@ -33,6 +33,7 @@ function HeroContent() {
 						<div className="aximo-hero-user-thumb-item" style={{ position: "relative" }}>
 							<Image src={User1Img} alt="Client 1" />
 							<div
+								className="video-overlay-small"
 								style={{
 									position: "absolute",
 									top: "50%",
@@ -43,11 +44,32 @@ function HeroContent() {
 								}}
 							>
 								<Image src={PlayBtnImg} alt="Play" width={30} height={30} />
+								<div
+									className="video-tooltip-small"
+									style={{
+										position: "absolute",
+										bottom: "-40px",
+										left: "50%",
+										transform: "translateX(-50%)",
+										backgroundColor: "#000",
+										color: "#fff",
+										padding: "6px 12px",
+										borderRadius: "6px",
+										whiteSpace: "nowrap",
+										fontSize: "12px",
+										opacity: 0,
+										transition: "opacity 0.3s ease",
+										pointerEvents: "none",
+									}}
+								>
+									See how we develop custom software
+								</div>
 							</div>
 						</div>
 						<div className="aximo-hero-user-thumb-item" style={{ position: "relative" }}>
 							<Image src={User3Img} alt="Client 2" />
 							<div
+								className="video-overlay-small"
 								style={{
 									position: "absolute",
 									top: "50%",
@@ -58,11 +80,32 @@ function HeroContent() {
 								}}
 							>
 								<Image src={PlayBtnImg} alt="Play" width={30} height={30} />
+								<div
+									className="video-tooltip-small"
+									style={{
+										position: "absolute",
+										bottom: "-40px",
+										left: "50%",
+										transform: "translateX(-50%)",
+										backgroundColor: "#000",
+										color: "#fff",
+										padding: "6px 12px",
+										borderRadius: "6px",
+										whiteSpace: "nowrap",
+										fontSize: "12px",
+										opacity: 0,
+										transition: "opacity 0.3s ease",
+										pointerEvents: "none",
+									}}
+								>
+									See our creative design process
+								</div>
 							</div>
 						</div>
 						<div className="aximo-hero-user-thumb-item" style={{ position: "relative" }}>
 							<Image src={User2Img} alt="Client 3" />
 							<div
+								className="video-overlay-small"
 								style={{
 									position: "absolute",
 									top: "50%",
@@ -73,6 +116,26 @@ function HeroContent() {
 								}}
 							>
 								<Image src={PlayBtnImg} alt="Play" width={30} height={30} />
+								<div
+									className="video-tooltip-small"
+									style={{
+										position: "absolute",
+										bottom: "-40px",
+										left: "50%",
+										transform: "translateX(-50%)",
+										backgroundColor: "#000",
+										color: "#fff",
+										padding: "6px 12px",
+										borderRadius: "6px",
+										whiteSpace: "nowrap",
+										fontSize: "12px",
+										opacity: 0,
+										transition: "opacity 0.3s ease",
+										pointerEvents: "none",
+									}}
+								>
+									See how we scale businesses
+								</div>
 							</div>
 						</div>
 					</div>
@@ -80,6 +143,11 @@ function HeroContent() {
 						<p>See how we transform ideas into reality</p>
 					</div>
 				</div>
+				<style jsx>{`
+					.video-overlay-small:hover .video-tooltip-small {
+						opacity: 1;
+					}
+				`}</style>
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren>
 				<Link className="aximo-call-btn" href="/about-us">
