@@ -13,29 +13,29 @@ import Navigation from "./Navigation";
 const blogData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Learn these five high-income skills to build your one-person business and get rich",
+		title: "How AI is transforming custom software development in 2024",
 		content:
-			"As a first-generation immigrant, money and networks weren’t given to me. So instead of going through the front door, I tried a back door approach",
-		category: "Marketing",
-		date: "June 18, 2024",
+			"Artificial intelligence is no longer just a buzzword—it's reshaping how we build software. From intelligent code assistants to automated testing, discover how AI tools are helping development teams deliver better products faster",
+		category: "AI & Technology",
+		date: "November 5, 2024",
 		img: Blog1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "I run a $10,000/month business with 0 employees, here&apos;s how I use AI tools",
+		title: "Mobile-first development: Why your next app should start with mobile",
 		content:
-			"Making more money with the help of AI tools. — Up until now, I’ve shared two posts discussing the AI tools I’ve incorporated into my",
-		category: "Business",
-		date: "June 18, 2024",
+			"With mobile devices accounting for over 60% of web traffic, mobile-first isn't optional—it's essential. Learn the key principles and best practices for building apps that users love on any device",
+		category: "Mobile Development",
+		date: "November 3, 2024",
 		img: Blog2Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Technical loan, product loan or business loan: different types and how to deal withit",
+		title: "From idea to deployment: Our proven process for delivering software projects",
 		content:
-			"Tech debt part two — a deeper dive into product and business debt and the ripple effect on organizations — in part one",
-		category: "Technology",
-		date: "June 18, 2024",
+			"Building custom software is complex, but it doesn't have to be chaotic. We break down our three-phase approach—Discovery, Development, and Deployment—that ensures projects stay on track and deliver real value",
+		category: "Development",
+		date: "October 28, 2024",
 		img: Blog3Img,
 	},
 ];

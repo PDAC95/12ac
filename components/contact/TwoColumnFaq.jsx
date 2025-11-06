@@ -5,35 +5,50 @@ const faqData = {
 	faq1: [
 		{
 			id: crypto.randomUUID(),
-			title: "What services does agency offer?",
-			text: "Clients often seek to understand the range of design services an agency provides, such as graphic design, web design, branding.",
+			title: "What services does AC95 offer?",
+			text: "We specialize in custom software development, mobile apps, AI integration, e-commerce platforms, web development, digital marketing, dedicated teams, and brand strategy. Basically, if it's tech-related and helps your business grow, we do it.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "What is your design process like?",
-			text: "Explaining the design agency&apos;s process from initial concept to final delivery helps clients understand what to expect.",
+			title: "What is your development process like?",
+			text: "We follow an agile approach: Discovery & Strategy → Design & Development → Launch & Support. You're involved at every stage, with regular check-ins and demos to ensure we're building exactly what you need.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How much does design work cost?",
-			text: "The cost of our design services varies depending on the scope of the project. We provide customized quotes after discussing requirements.",
+			title: "How much does a project cost?",
+			text: "It depends on the scope and complexity. After understanding your requirements, we provide a detailed quote. We offer flexible pricing models including project-based, monthly subscriptions, and dedicated team hiring.",
+		},
+		{
+			id: crypto.randomUUID(),
+			title: "How long does a typical project take?",
+			text: "It depends on what you need. Simple solutions can be ready in days, while more complex projects might take weeks or months. We'll give you a realistic timeline once we understand your requirements.",
+		},
+		{
+			id: crypto.randomUUID(),
+			title: "Do you offer ongoing support after launch?",
+			text: "Absolutely. We offer monthly maintenance subscriptions for websites, apps, and software. This includes updates, bug fixes, security patches, performance optimization, and technical support.",
 		},
 	],
 	faq2: [
 		{
 			id: crypto.randomUUID(),
-			title: "What&apos;s your design process like?",
-			text: "Our design process typically involves discovery, concept development, design, revisions based on feedback, and finalization.",
+			title: "Do you work with clients internationally?",
+			text: "Yes! We have teams across Canada, the US, Mexico, Colombia, Panama, and Spain. We've successfully delivered projects in all these countries and work seamlessly across time zones.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How do you handle user feedback?",
-			text: "We value client feedback and work closely with you to make sure user happy with the final design. We offer a specific number of revisions.",
+			title: "What technologies do you work with?",
+			text: "We work with modern tech stacks including React, Node.js, Python, cloud platforms (AWS, Azure), and leading AI tools. We choose the right technology based on your specific needs, not trends.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "Can we see samples of your work?",
-			text: "Yes, we're proud to showcase a portfolio of our previous projects. You can find examples of our work on our website or view our portfolio.",
+			title: "Can we hire your team on a monthly basis?",
+			text: "Absolutely. We offer flexible hiring models: monthly retainers, project-based contracts, or sprint-based engagements. You get the talent you need, when you need it.",
+		},
+		{
+			id: crypto.randomUUID(),
+			title: "What industries do you work with?",
+			text: "We've worked across e-commerce, fintech, healthcare, education, and more. Our approach is industry-agnostic—we focus on understanding your specific business challenges.",
 		},
 	],
 };

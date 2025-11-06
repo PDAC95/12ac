@@ -19,38 +19,36 @@ function ContactInfo() {
 					</h2>
 				</div>
 				<FadeInStaggerTwo className="row">
-					<FadeInStaggerTwoChildren className="col-xl-4 col-md-6">
-						<div className="aximo-contact-info-box">
+					<FadeInStaggerTwoChildren className="col-xl-4 col-md-6 d-flex">
+						<div className="aximo-contact-info-box w-100 h-100 d-flex flex-column">
 							<div className="aximo-contact-info-icon">
 								<Image src={Call2Img} alt="Call Img" />
 							</div>
-							<div className="aximo-contact-info-data">
+							<div className="aximo-contact-info-data flex-grow-1">
 								<span>Call us</span>
-								<p>+088-234-6532-789</p>
-								<p>+088-456-3217-005</p>
+								<p>+1 226 341 9961</p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>
-					<FadeInStaggerTwoChildren className="col-xl-4 col-md-6">
-						<div className="aximo-contact-info-box">
+					<FadeInStaggerTwoChildren className="col-xl-4 col-md-6 d-flex">
+						<div className="aximo-contact-info-box w-100 h-100 d-flex flex-column">
 							<div className="aximo-contact-info-icon">
 								<Image src={EmailImg} alt="Email" />
 							</div>
-							<div className="aximo-contact-info-data">
-								<span>Call us</span>
-								<p>example@gmail.com</p>
-								<p>example@gmail.com</p>
+							<div className="aximo-contact-info-data flex-grow-1">
+								<span>Email us</span>
+								<p>hello@ac95.ca</p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>
-					<FadeInStaggerTwoChildren className="col-xl-4 col-md-6">
-						<div className="aximo-contact-info-box">
+					<FadeInStaggerTwoChildren className="col-xl-4 col-md-6 d-flex">
+						<div className="aximo-contact-info-box w-100 h-100 d-flex flex-column">
 							<div className="aximo-contact-info-icon">
 								<Image src={MapImg} alt="Map" />
 							</div>
-							<div className="aximo-contact-info-data">
+							<div className="aximo-contact-info-data flex-grow-1">
 								<span>Office address</span>
-								<p>4132 Thornridge City, New York.</p>
+								<p>151 Charles St W Suite 100, Kitchener, ON N2G 1H6</p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>

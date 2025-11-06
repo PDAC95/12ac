@@ -7,10 +7,10 @@ import TwoColumnFaq from "@/components/contact/TwoColumnFaq";
 function ContactUs() {
 	const location = {
 		center: {
-			lat: 10.99835602,
-			lng: 77.01502627,
+			lat: 43.451168,
+			lng: -80.498262,
 		},
-		zoom: 11,
+		zoom: 17,
 	};
 	return (
 		<>

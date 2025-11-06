@@ -5,44 +5,31 @@ import ServiceCard from "./ServiceCard";
 const serviceData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Strategic Planning",
+		title: "Custom Software & Apps",
 		description:
-			"Actionable strategies that align with your business objectives, ensuring you're on the path to success.",
-		iconClass: "icon-idea-bulb",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Operational Excellence",
-		description:
-			"We optimize your processes & work improve efficiency, and reduce costs to enhance overall performance.",
-		iconClass: "icon-project-management",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Financial Advisory",
-		description:
-			"Our experts provide financial guide, help manage investments, & risk to ensure your financial health.",
-		iconClass: "icon-start-up",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Technology Solutions",
-		description:
-			"We offer IT consulting to guide new technology adoption for enhance all cybersecurity for your business.",
+			"We build web platforms, mobile apps, and enterprise software tailored to your business needs. From concept to deployment, we create scalable solutions that grow with you.",
 		iconClass: "icon-database",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Marketing and Sales",
-		description: "We help you develop effective and boost brand visibility to connect with your target audience.",
+		title: "AI Solutions & Automation",
+		description:
+			"We integrate intelligent features that work smarter for you. From chatbots to predictive analytics, we help you automate processes and enhance user experiences with cutting-edge AI.",
+		iconClass: "icon-idea-bulb",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Digital Marketing & Branding",
+		description:
+			"We amplify your brand and drive results. SEO, social media, content strategy, and paid ads—we create data-driven campaigns that turn visibility into growth.",
 		iconClass: "icon-data-analysis-1",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Specialized Expertise",
+		title: "Dedicated Teams",
 		description:
-			"With industry-specific knowledge, we provide tailored solutions for all sectors like healthcare, finance.",
-		iconClass: "icon-client-support",
+			"Need to scale fast? We provide expert developers, designers, and project managers who integrate seamlessly into your workflow. Hire by the month, project, or sprint.",
+		iconClass: "icon-project-management",
 	},
 ];
 function Services() {
@@ -52,12 +39,12 @@ function Services() {
 				<div className="aximo-section-title arimo-font">
 					<div className="row">
 						<div className="col-lg-7">
-							<span className="aximo-subtitle">Our amazing services</span>
-							<h2>We provide various essential services</h2>
+							<span className="aximo-subtitle">How we work across our services</span>
+							<p style={{ fontSize: '1.25rem', marginTop: '10px', color: '#666' }}>Four videos, four ways we help businesses grow. See our process in action for each area we specialize in.</p>
 						</div>
 						<div className="col-lg-5 d-flex align-items-end justify-content-end">
 							<div className="aximo-title-btn">
-								<Link className="aximo-default-btn pill blue-btn" href="/service">
+								<Link className="aximo-default-btn pill" style={{ backgroundColor: '#ff4612', color: '#ffffff' }} href="/service">
 									View all services
 								</Link>
 							</div>
@@ -66,7 +53,7 @@ function Services() {
 				</div>
 				<div className="row">
 					{serviceData.map((service, index) => (
-						<FadeInStagger key={service.id} index={index} className="col-xl-4 col-lg-6">
+						<FadeInStagger key={service.id} index={index} className="col-lg-6 d-flex">
 							<ServiceCard service={service} />
 						</FadeInStagger>
 					))}

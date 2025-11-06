@@ -230,7 +230,7 @@ const swiperSettings = {
 };
 function Projects() {
 	return (
-		<div className="aximo-project-section aximo-section-padding extra-side-margin">
+		<div className="aximo-project-section aximo-section-padding extra-side-margin" style={{ marginBottom: '80px' }}>
 			<div className="container">
 				<div className="aximo-section-title center light arimo-font">
 					<span className="aximo-subtitle">Our stunning creation</span>

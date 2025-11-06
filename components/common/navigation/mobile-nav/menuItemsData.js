@@ -16,38 +16,42 @@ export const menuItemsData = [
 				url: "service",
 			},
 			{
+				title: "AI Integration & Automation",
+				url: "service/ai-automation",
+			},
+			{
+				title: "Custom Software Development",
+				url: "service/custom-software",
+			},
+			{
+				title: "E-commerce Development",
+				url: "service/ecommerce",
+			},
+			{
+				title: "Mobile App Development",
+				url: "service/mobile-apps",
+			},
+			{
 				title: "Web Development",
 				url: "service/web-development",
 			},
 			{
-				title: "Mobile Apps",
-				url: "service/mobile-apps",
-			},
-			{
-				title: "E-Commerce",
-				url: "service/ecommerce",
-			},
-			{
-				title: "Software Development",
-				url: "service/software-development",
-			},
-			{
-				title: "Graphic Design",
-				url: "service/graphic-design",
-			},
-			{
-				title: "Digital Marketing",
+				title: "Digital Marketing & SEO",
 				url: "service/digital-marketing",
 			},
 			{
-				title: "Branding Solutions",
+				title: "Dedicated Development Teams",
+				url: "service/dedicated-teams",
+			},
+			{
+				title: "Brand Strategy & Design",
 				url: "service/branding",
 			},
 		],
 	},
 	{
-		title: "Portfolio",
-		url: "portfolio-one",
+		title: "How We Work",
+		url: "how-we-work",
 	},
 	{
 		title: "Blog",

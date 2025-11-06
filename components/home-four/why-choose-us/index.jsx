@@ -18,19 +18,15 @@ function WhyChooseUs() {
 					<div className="col-lg-7">
 						<div className="aximo-default-content arimo-font m-left-gap">
 							<span className="aximo-subtitle">Why choose us</span>
-							<h2>We help companies achieve their goals</h2>
+							<h2>We help businesses turn ideas into reality</h2>
 							<p>
-								In today&apos;s complex and rapidly changing business environment, we help businesses
-								adapt, grow & succeed. Our expertise, objectivity, and ability to provide customized
-								solutions.
+								In today&apos;s fast-paced digital world, you need a technology partner that understands your challenges and delivers real solutions. Our experience, flexibility, and commitment to quality make us the right choice for businesses ready to grow.
 							</p>
 							<p>
-								<strong>Industry Expertise:</strong> Our team of seasoned consultants brings wealth of
-								knowledge and experience across various industries.
+								<strong>15+ Years of Combined Expertise:</strong> Our team brings deep technical knowledge across software development, AI, mobile apps, and digital strategy.
 							</p>
 							<p>
-								<strong>Results-Driven Approach:</strong> Our proven methodologies and data-driven
-								strategies ensure that your business reaches.
+								<strong>Results-Driven Approach:</strong> We don&apos;t just build—we deliver solutions that work, scale, and drive measurable business outcomes.
 							</p>
 						</div>
 					</div>

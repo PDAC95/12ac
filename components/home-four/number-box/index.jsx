@@ -10,9 +10,9 @@ function NumberBox() {
 							<div className="aximo-numberbox-number">1</div>
 							<div className="aximo-numberbox-data">
 								<p>
-									<span>Initial Contact</span>
+									<span>Discovery & Planning</span>
 								</p>
-								<p>Contact us & we’ll listen carefully to understand your unique needs & goals.</p>
+								<p>Reach out and we&apos;ll listen carefully to understand your goals, challenges, and what success looks like for your business.</p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>
@@ -21,9 +21,9 @@ function NumberBox() {
 							<div className="aximo-numberbox-number">2</div>
 							<div className="aximo-numberbox-data">
 								<p>
-									<span>Solutions & Collaboration</span>
+									<span>Building Together</span>
 								</p>
-								<p>We become your partners in progress, collaborating to implement solutions.</p>
+								<p>We become your partners in progress, collaborating closely through design, development, and regular check-ins.</p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>
@@ -32,9 +32,9 @@ function NumberBox() {
 							<div className="aximo-numberbox-number">3</div>
 							<div className="aximo-numberbox-data">
 								<p>
-									<span>Monitoring & Results</span>
+									<span>Launch & Growth</span>
 								</p>
-								<p>We continuously monitoring and leads to your business achieving its goals.</p>
+								<p>We continuously monitor performance and optimize to ensure your solution delivers the results you need.</p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>

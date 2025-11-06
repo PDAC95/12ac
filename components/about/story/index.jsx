@@ -17,9 +17,8 @@ function Story() {
 						worth sharing with you
 					</h2>
 					<p>
-						Established in 2008, we began as a small but ambitious team. We understood the importance of
-						creative and tech-savvy solutions to help businesses succeed in the ever-changing digital
-						landscape.
+						Founded in 2021, AC95 was born when a team of seasoned professionals—each with over 15 years of experience—came together with one goal: help businesses thrive through smart technology.
+						Today, we have teams working across Canada, the United States, Mexico, Colombia, Panama, and Spain. We've delivered successful projects in all these countries, building solutions that work across borders and industries.
 					</p>
 				</div>
 

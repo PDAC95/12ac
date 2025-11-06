@@ -1,64 +1,71 @@
 import BreadCrumb from "@/components/common/Breadcrumb";
 import TwoColumnFaq from "@/components/contact/TwoColumnFaq";
-import AutoSlider from "@/components/home-one/auto-slider";
 import Services from "@/components/home-one/services";
 import WhyChooseUs from "@/components/home-one/why-choose-us";
 const services = [
 	{
 		id: crypto.randomUUID(),
-		title: "UI/UX Design",
+		title: "AI Integration & Automation",
 		description:
-			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
-		icon: "icon-design-tools",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Graphic Design",
-		description:
-			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
-		icon: "icon-branding",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Web Design",
-		description:
-			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
-		icon: "icon-web",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Motion Graphics",
-		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
+			"Smart chatbots, predictive analytics, and intelligent process automation that save time and money.",
 		icon: "icon-design-thinking",
+		slug: "ai-automation",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Packaging Design",
+		title: "Custom Software Development",
 		description:
-			"Creating packaging solutions for products that not only protect them but also attract customers on store shelves.",
+			"We turn your ideas into reality—from simple tools to complex platforms tailored to your business needs.",
+		icon: "icon-design-tools",
+		slug: "custom-software",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "E-commerce Development",
+		description:
+			"Complete online stores with secure payments, inventory systems, and conversion-optimized experiences.",
 		icon: "icon-layers",
+		slug: "ecommerce",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Logo and Branding",
+		title: "Mobile App Development",
 		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
-		icon: "icon-rating-stars-1",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Illustration",
-		description:
-			"Producing custom illustrations for editorial content, books, websites, marketing materials, magazines and more.",
-		icon: "icon-chef",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Product Design",
-		description:
-			"Developing the look and feel of physical products, considering ergonomics, aesthetics, and functionality.",
+			"iOS and Android apps that users love—from concept to App Store launch.",
 		icon: "icon-target-1",
+		slug: "mobile-apps",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Web Development",
+		description:
+			"Fast, responsive, and scalable websites built to perform—from landing pages to full web applications.",
+		icon: "icon-web",
+		slug: "web-development",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Digital Marketing & SEO",
+		description:
+			"Data-driven strategies that boost visibility, drive traffic, and convert visitors into customers.",
+		icon: "icon-rating-stars-1",
+		slug: "digital-marketing",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Dedicated Development Teams",
+		description:
+			"Expert developers and designers who integrate with your team to accelerate delivery.",
+		icon: "icon-chef",
+		slug: "dedicated-teams",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Brand Strategy & Design",
+		description:
+			"Visual identity, logos, and brand positioning that make your business stand out in the market.",
+		icon: "icon-branding",
+		slug: "branding",
 	},
 ];
 function ServicePage() {
@@ -66,7 +73,6 @@ function ServicePage() {
 		<>
 			<BreadCrumb title="Service" />
 			<Services services={services} />
-			<AutoSlider />
 			<WhyChooseUs />
 			<TwoColumnFaq />
 		</>

@@ -3,7 +3,8 @@ import SingleImg from "../../public/images/service/service-single.png";
 import Star2Img from "../../public/images/v1/star2.png";
 import FadeInUp from "../animation/FadeInUp";
 import WorkingApproach from "./WorkingApproach";
-function ServiceDetails() {
+
+function ServiceDetails({ serviceData }) {
 	return (
 		<div className="section aximo-section-padding2 pb-0">
 			<div className="container">
@@ -16,68 +17,34 @@ function ServiceDetails() {
 							<div className="aximo-default-content">
 								<h2>
 									<span className="aximo-title-animation">
-										UI/UX for modern
+										{serviceData.title}
 										<span className="aximo-title-icon">
 											<Image src={Star2Img} alt="star" />
 										</span>
 									</span>
-									product development
+									{serviceData.subtitle}
 								</h2>
-								<p>
-									UI/UX, which stands for User Interface (UI) and User Experience (UX), are two
-									critical components of software design and development of websites and applications.
-								</p>
-								<p>
-									They are often used interchangeably, but they refer to different aspects of the
-									design and user interaction process. Here&apos;s a brief overview of each:
-								</p>
+								<p>{serviceData.description1}</p>
+								<p>{serviceData.description2}</p>
 							</div>
 						</div>
 					</div>
 					<div className="row">
-						<div className="col-lg-6">
-							<div className="aximo-user-interface">
-								<h3>1/ User Interface (UI):</h3>
-								<ul>
-									<li>
-										UI refers to the visual elements and the overall look and feel of a product. It
-										encompasses the design of screens, pages, buttons, icons, and any other visual
-										elements users interact with.
-									</li>
-									<li>
-										UI designers are responsible for creating a visually appealing and consistent
-										design that aligns with the brand or product&apos;s identity.
-									</li>
-									<li>
-										Key aspects of UI design include layout, color schemes, typography, icons, and
-										graphical elements.
-									</li>
-								</ul>
+						{serviceData.features.map((feature, index) => (
+							<div key={feature.id} className="col-lg-6">
+								<div className="aximo-user-interface">
+									<h3>{index + 1}/ {feature.title}:</h3>
+									<ul>
+										{feature.items.map((item, itemIndex) => (
+											<li key={itemIndex}>{item}</li>
+										))}
+									</ul>
+								</div>
 							</div>
-						</div>
-						<div className="col-lg-6">
-							<div className="aximo-user-interface">
-								<h3>2/ User Experience (UX):</h3>
-								<ul>
-									<li>
-										UX focuses on the overall experience of the user when interacting with a
-										product. It encompasses how users feel when they use the product and how easy or
-										challenging it is to accomplish their goals.
-									</li>
-									<li>
-										UX designers work to understand the user&apos;s needs, behaviors, and pain
-										points, and they design the product maximizes user satisfaction.
-									</li>
-									<li>
-										Key aspects of UX design include research, information architecture,
-										wireframing, prototyping, usability testing, and user journey mapping.
-									</li>
-								</ul>
-							</div>
-						</div>
+						))}
 					</div>
 					<div className="aximo-faq-wrap">
-						<WorkingApproach />
+						<WorkingApproach approachData={serviceData.approach} />
 					</div>
 				</div>
 			</div>

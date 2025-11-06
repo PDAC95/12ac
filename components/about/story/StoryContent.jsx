@@ -4,25 +4,19 @@ function StoryContent() {
 			<div className="col-lg-6">
 				<h3>Our core vision</h3>
 				<p>
-					Empowering businesses to create impactful and visually stunning brand experiences that captivate
-					audiences and drive success in the digital age.
+					To be the go-to technology partner for businesses looking to transform ideas into functional, scalable, and innovative software solutions.
 				</p>
 				<p>
-					Our team consists of experienced designers, developers. We have a wide variety of skills and
-					backgrounds, allowing us to tackle projects of all sizes and complexities. We believe in the power
-					of imagination and innovation.
+					We're a team of developers, designers, and strategists who love solving problems. From AI integration to custom apps, we tackle projects of all sizes—always focused on delivering real results, not just pretty code.
 				</p>
 			</div>
 			<div className="col-lg-6">
 				<h3>Our main mission</h3>
 				<p>
-					Our mission is to collaborate with businesses of all sizes, from startups to established brands, to
-					provide innovative and creative design solutions.
+					Empower businesses through custom software solutions that drive efficiency, innovation, and growth. We combine creativity with technical expertise to keep our clients ahead in the ever-evolving digital landscape.
 				</p>
 				<p>
-					We are committed to creating designs that inspire, connect & our clients in the marketplace. Our
-					focus is on understanding. Our clients unique needs and delivery designs that not only meet but
-					exceed their expectations.
+					We're committed to understanding your unique needs and building solutions that don't just meet expectations—they exceed them.
 				</p>
 			</div>
 		</div>

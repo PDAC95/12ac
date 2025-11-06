@@ -1,5 +1,5 @@
 import Link from "next/link";
-const tagsData = ["Marketing", "Business", "Solutions", "Studio", "Brand"];
+const tagsData = ["AI", "React", "Mobile Apps", "Custom Software", "Automation", "Web Development"];
 function Tags() {
 	return (
 		<div className="widget">

@@ -17,6 +17,9 @@ function Services({ services }) {
 							</span>
 						</span>
 					</h2>
+					<p>
+						We deliver solutions that drive real growth—from AI automation to custom software and dedicated teams.
+					</p>
 				</div>
 				<div className="aximo-service-wrap">
 					<div className="row">

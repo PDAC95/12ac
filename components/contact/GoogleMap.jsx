@@ -8,7 +8,7 @@ function GoogleMap({ location }) {
 				<div className="aximo-map-wrap">
 					<div id="map">
 						<GoogleMapReact
-							bootstrapURLKeys={{ key: "" }}
+							bootstrapURLKeys={{ key: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY }}
 							defaultCenter={location.center}
 							defaultZoom={location.zoom}
 						>

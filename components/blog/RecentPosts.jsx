@@ -6,20 +6,20 @@ import Blog3Img from "../../public/images/blog/blog3.png";
 const recentPostData = [
 	{
 		id: crypto.randomUUID(),
-		title: "7 businesses for easy money",
-		date: "June 18, 2024",
+		title: "5 key benefits of custom software for growing businesses",
+		date: "November 6, 2024",
 		img: Blog1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "My 3 tips for business ideas",
-		date: "June 18, 2024",
+		title: "Best practices for React development in 2024",
+		date: "November 1, 2024",
 		img: Blog2Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "12 Halloween costume ideas",
-		date: "June 18, 2024",
+		title: "How to choose the right tech stack for your project",
+		date: "October 25, 2024",
 		img: Blog3Img,
 	},
 ];

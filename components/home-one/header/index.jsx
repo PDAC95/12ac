@@ -22,16 +22,17 @@ function Header() {
 							<NavItem dropdown title="Services">
 								<Dropdown>
 									<DropdownItem url="service">All Services</DropdownItem>
+									<DropdownItem url="service/ai-automation">AI Integration & Automation</DropdownItem>
+									<DropdownItem url="service/custom-software">Custom Software Development</DropdownItem>
+									<DropdownItem url="service/ecommerce">E-commerce Development</DropdownItem>
+									<DropdownItem url="service/mobile-apps">Mobile App Development</DropdownItem>
 									<DropdownItem url="service/web-development">Web Development</DropdownItem>
-									<DropdownItem url="service/mobile-apps">Mobile Apps</DropdownItem>
-									<DropdownItem url="service/ecommerce">E-Commerce</DropdownItem>
-									<DropdownItem url="service/software-development">Software Development</DropdownItem>
-									<DropdownItem url="service/graphic-design">Graphic Design</DropdownItem>
-									<DropdownItem url="service/digital-marketing">Digital Marketing</DropdownItem>
-									<DropdownItem url="service/branding">Branding Solutions</DropdownItem>
+									<DropdownItem url="service/digital-marketing">Digital Marketing & SEO</DropdownItem>
+									<DropdownItem url="service/dedicated-teams">Dedicated Development Teams</DropdownItem>
+									<DropdownItem url="service/branding">Brand Strategy & Design</DropdownItem>
 								</Dropdown>
 							</NavItem>
-							<NavItem url="portfolio-one">Portfolio</NavItem>
+							<NavItem url="how-we-work">How We Work</NavItem>
 							<NavItem url="blog">Blog</NavItem>
 							<NavItem url="contact-us">Contact</NavItem>
 						</DesktopNav>
