@@ -20,6 +20,7 @@ import "swiper/css/scrollbar";
 import ImportBsJS from "@/components/BootstrapClient";
 import Footer from "@/components/home-one/footer";
 import Header from "@/components/home-one/header";
+import { LanguageProvider } from "@/contexts/LanguageContext";
 
 // main css
 import "../../public/css/app.css";
@@ -36,10 +37,12 @@ export default function HomeOneLayout({ children }) {
 	return (
 		<html lang="en">
 			<body className={`${syne.variable} ${inter.variable}`}>
-				<ImportBsJS />
-				<Header />
-				{children}
-				<Footer />
+				<LanguageProvider>
+					<ImportBsJS />
+					<Header />
+					{children}
+					<Footer />
+				</LanguageProvider>
 			</body>
 		</html>
 	);
