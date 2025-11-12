@@ -11,6 +11,8 @@ const servicesData = [
 		description:
 			"We build web platforms, mobile apps, and enterprise software tailored to your business needs. From concept to deployment, we create scalable solutions that grow with you.",
 		icon: "icon-web",
+		slug: "custom-software-apps",
+		category: "software",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -18,6 +20,8 @@ const servicesData = [
 		description:
 			"We integrate intelligent features that work smarter for you. From chatbots to predictive analytics, we help you automate processes and enhance user experiences with cutting-edge AI.",
 		icon: "icon-design-thinking",
+		slug: "ai-solutions-automation",
+		category: "ai",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -25,6 +29,8 @@ const servicesData = [
 		description:
 			"We amplify your brand and drive results. SEO, social media, content strategy, and paid ads—we create data-driven campaigns that turn visibility into growth.",
 		icon: "icon-branding",
+		slug: "digital-marketing-branding",
+		category: "marketing",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -32,6 +38,8 @@ const servicesData = [
 		description:
 			"Need to scale fast? We provide expert developers, designers, and project managers who integrate seamlessly into your workflow. Hire by the month, project, or sprint.",
 		icon: "icon-design-tools",
+		slug: "dedicated-teams",
+		category: "team",
 	},
 ];
 

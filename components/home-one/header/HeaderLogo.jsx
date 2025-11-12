@@ -5,7 +5,12 @@ function HeaderLogo() {
 	return (
 		<div className="brand-logo">
 			<Link href="/">
-				<Image src={Logo} alt="Logo" className="light-version-logo" />
+				<Image
+					src={Logo}
+					alt="Logo"
+					className="light-version-logo"
+					style={{ transform: 'scale(0.7)', transformOrigin: 'left center' }}
+				/>
 			</Link>
 		</div>
 	);

@@ -6,7 +6,7 @@ import Link from "next/link";
 import ArrowRightImg from "../../../public/images/icon/arrow-right.svg";
 import PlayBtnImg from "../../../public/images/icon/play-circle.svg";
 
-function ServiceCard({ service: { title, description, icon, slug } }) {
+function ServiceCard({ service: { title, description, icon, slug, category } }) {
 	const [isVideoOpen, setIsVideoOpen] = useState(false);
 	const [isLoading, setIsLoading] = useState(true);
 	const [mounted, setMounted] = useState(false);
@@ -172,7 +172,7 @@ function ServiceCard({ service: { title, description, icon, slug } }) {
 				<div className="aximo-iconbox-data">
 					<h3>{title}</h3>
 					<p>{description}</p>
-					<Link href={`/service/${slug}`} className="aximo-icon">
+					<Link href={category ? `/service?filter=${category}` : `/service/${slug}`} className="aximo-icon">
 						<Image src={ArrowRightImg} alt="arrow right" />
 					</Link>
 				</div>

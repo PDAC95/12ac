@@ -28,8 +28,8 @@ import "../../public/css/mobile-nav.css";
 import "../../public/css/tooltips.css";
 
 export const metadata = {
-	title: "Aximo || Responsive Next.js Template",
-	description: "Aximo || Responsive Next.js Template",
+	title: "AC95 Technology Solutions | Custom Software Development & Digital Innovation",
+	description: "AC95 Technology Solutions - Shaping your vision with technology. Expert software development, AI integration, and digital solutions for modern businesses.",
 };
 
 export default function HomeOneLayout({ children }) {

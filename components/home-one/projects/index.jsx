@@ -2,9 +2,12 @@
 import Image from "next/image";
 import { Mousewheel, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Project1Img from "../../../public/images/v1/project1.png";
-import Project2Img from "../../../public/images/v1/project2.png";
-import Project3Img from "../../../public/images/v1/project3.png";
+import AIImg from "../../../public/images/service/ai.jpg";
+import SoftwareImg from "../../../public/images/service/software.jpg";
+import EcommerceImg from "../../../public/images/service/ecommerce.jpg";
+import BrandingImg from "../../../public/images/service/branding.jpg";
+import TeamImg from "../../../public/images/service/team.jpg";
+import AppsImg from "../../../public/images/service/apps.jpg";
 import Project4Img from "../../../public/images/v1/project4.png";
 import Star2Img from "../../../public/images/v1/star2.png";
 import ProjectCard from "./ProjectCard";
@@ -14,43 +17,57 @@ const projectsData = [
 		id: crypto.randomUUID(),
 		title: "AI Integration & Automation",
 		description: "Smart chatbots, predictive analytics, and intelligent process automation that save time and money.",
-		img: Project1Img,
+		img: AIImg,
+		slug: "ai-automation",
+		category: "ai",
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "Custom Software Development",
 		description: "We turn your ideas into reality—from simple tools to complex platforms tailored to your business needs.",
-		img: Project2Img,
+		img: SoftwareImg,
+		slug: "custom-software",
+		category: "software",
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "E-commerce Development",
 		description: "Complete online stores with secure payments, inventory systems, and conversion-optimized experiences.",
-		img: Project3Img,
+		img: EcommerceImg,
+		slug: "ecommerce",
+		category: "software",
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "Mobile App Development",
 		description: "iOS and Android apps that users love—from concept to App Store launch.",
-		img: Project4Img,
+		img: AppsImg,
+		slug: "mobile-apps",
+		category: "software",
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "Dedicated Development Teams",
 		description: "Expert developers and designers who integrate with your team to accelerate delivery.",
-		img: Project1Img,
+		img: TeamImg,
+		slug: "dedicated-teams",
+		category: "team",
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "Digital Marketing & SEO",
 		description: "Data-driven strategies that boost visibility, drive traffic, and convert visitors into customers.",
-		img: Project2Img,
+		img: BrandingImg,
+		slug: "digital-marketing",
+		category: "marketing",
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "Web Development",
 		description: "Fast, responsive, and scalable websites built to perform—from landing pages to full web applications.",
-		img: Project3Img,
+		img: SoftwareImg,
+		slug: "web-development",
+		category: "software",
 	},
 ];
 

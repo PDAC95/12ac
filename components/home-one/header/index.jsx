@@ -7,6 +7,7 @@ import NavItem from "@/components/common/navigation/desktop-nav/NavItem";
 import MobileNavbar from "@/components/common/navigation/mobile-nav/MobileNavbar";
 import { menuItemsData } from "@/components/common/navigation/mobile-nav/menuItemsData";
 import HeaderButton from "./HeaderButton";
+import HeaderLanguageSelector from "./HeaderLanguageSelector";
 import HeaderLogo from "./HeaderLogo";
 
 function Header() {
@@ -32,12 +33,14 @@ function Header() {
 									<DropdownItem url="service/branding">Brand Strategy & Design</DropdownItem>
 								</Dropdown>
 							</NavItem>
-							<NavItem url="how-we-work">How We Work</NavItem>
 							<NavItem url="blog">Blog</NavItem>
 							<NavItem url="contact-us">Contact</NavItem>
 						</DesktopNav>
 					</div>
-					<HeaderButton />
+					<div className="ms-auto d-none d-xs-inline-flex" style={{ display: "flex", alignItems: "center" }}>
+						<HeaderLanguageSelector />
+						<HeaderButton />
+					</div>
 
 					<MobileNavbar menuItemsData={menuItemsData} title="AC95" />
 				</nav>
