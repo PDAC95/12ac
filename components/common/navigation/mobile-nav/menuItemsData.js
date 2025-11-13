@@ -50,7 +50,15 @@ export const menuItemsData = [
 		],
 	},
 	{
-		title: "Blog",
+		title: "How We Work",
+		url: "how-we-work",
+	},
+	{
+		title: "Plans",
+		url: "pricing",
+	},
+	{
+		title: "Resources",
 		url: "blog",
 	},
 	{

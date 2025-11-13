@@ -45,12 +45,12 @@ function Accordion() {
 						data-bs-toggle="collapse"
 						data-bs-target="#collapseThree"
 					>
-						03/ Launch & Support
+						03/ Launch & Continuous Growth
 					</button>
 				</h3>
 				<div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
 					<div className="accordion-body">
-						We deploy your project and stick around to ensure everything runs smoothly, with ongoing support when you need it.
+						We deploy your solution and continue optimizing it every month—adding features, improving performance, and ensuring your technology scales with your business.
 					</div>
 				</div>
 			</FadeInStaggerTwoChildren>

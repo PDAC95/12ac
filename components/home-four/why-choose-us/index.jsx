@@ -28,6 +28,37 @@ function WhyChooseUs() {
 							<p>
 								<strong>Results-Driven Approach:</strong> We don&apos;t just build—we deliver solutions that work, scale, and drive measurable business outcomes.
 							</p>
+
+							{/* Process Steps */}
+							<div style={{ marginTop: "40px" }}>
+								<div style={{ marginBottom: "30px" }}>
+									<h3 style={{ fontSize: "1.5rem", fontWeight: "700", marginBottom: "10px" }}>
+										<span style={{ color: "var(--accent-bg)", marginRight: "10px" }}>1</span>
+										Discovery & Planning
+									</h3>
+									<p>
+										Reach out and we'll listen carefully to understand your goals, challenges, and what success looks like for your business.
+									</p>
+								</div>
+								<div style={{ marginBottom: "30px" }}>
+									<h3 style={{ fontSize: "1.5rem", fontWeight: "700", marginBottom: "10px" }}>
+										<span style={{ color: "var(--accent-bg)", marginRight: "10px" }}>2</span>
+										Building Together
+									</h3>
+									<p>
+										We become your partners in progress, collaborating closely through design, development, and regular check-ins.
+									</p>
+								</div>
+								<div>
+									<h3 style={{ fontSize: "1.5rem", fontWeight: "700", marginBottom: "10px" }}>
+										<span style={{ color: "var(--accent-bg)", marginRight: "10px" }}>3</span>
+										Launch & Growth
+									</h3>
+									<p>
+										We continuously monitor performance and optimize to ensure your solution delivers the results you need.
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

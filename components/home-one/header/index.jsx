@@ -33,7 +33,9 @@ function Header() {
 									<DropdownItem url="service/branding">Brand Strategy & Design</DropdownItem>
 								</Dropdown>
 							</NavItem>
-							<NavItem url="blog">Blog</NavItem>
+							<NavItem url="how-we-work">How We Work</NavItem>
+							<NavItem url="pricing">Plans</NavItem>
+							<NavItem url="blog">Resources</NavItem>
 							<NavItem url="contact-us">Contact</NavItem>
 						</DesktopNav>
 					</div>

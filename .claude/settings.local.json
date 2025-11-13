@@ -10,7 +10,11 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git push:*)",
-      "Bash(git revert:*)"
+      "Bash(git revert:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nComplete English version - AC95 homepage ready for production\n\nMajor updates and features implemented:\n- Reduced header logo size by 30% and decreased header padding\n- Updated page metadata to AC95 branding\n- Removed footer logo, simplified to copyright only\n- Removed \"How We Work\" from navigation menus\n\nService functionality:\n- Added service filtering system with 5 category tabs (All, Software, AI, Marketing, Teams)\n- Implemented video modals for service cards with Cloudinary integration\n- Added category-based navigation from homepage services to filtered service page\n- Fixed service card links to redirect with proper category filters\n\nVisual improvements:\n- Fixed About Us page images by using absolute paths\n- Updated service section images with uniform sizing (400px height, object-fit: cover)\n- Added language selector to header with EN/ES toggle\n- Service carousel links now properly route to individual service pages\n\nTechnical enhancements:\n- Client-side state management for service filtering\n- URL query parameter support for filter persistence\n- Responsive filter buttons with hover effects\n- Portal-based video modal implementation\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git checkout:*)",
+      "Bash(git push)",
+      "Bash(git merge:*)"
     ],
     "deny": [],
     "ask": []

@@ -1,5 +1,7 @@
+"use client";
 import FadeInStagger from "@/components/animation/FadeInStagger";
 import Image from "next/image";
+import Link from "next/link";
 import Star2Img from "../../../public/images/v1/star2.png";
 import ServiceCard from "./ServiceCard";
 
@@ -9,17 +11,48 @@ function Services({ services, filters, activeFilter, onFilterChange }) {
 			<div className="container">
 				<div className="aximo-section-title center">
 					<h2>
-						Technology that moves
+						Everything your business needs
+						<br />
 						<span className="aximo-title-animation">
-							businesses forward
+							to grow digitally
 							<span className="aximo-title-icon">
 								<Image src={Star2Img} alt="Star2Img" />
 							</span>
 						</span>
 					</h2>
 					<p>
-						We deliver solutions that drive real growth—from AI automation to custom software and dedicated teams.
+						One platform, multiple solutions. From building your technology to scaling your team, we cover every aspect of your digital journey through flexible monthly plans.
 					</p>
+				</div>
+
+				{/* Choose Your Plan CTA */}
+				<div style={{ display: "flex", justifyContent: "flex-end", marginBottom: "30px" }}>
+					<Link
+						href="/pricing"
+						style={{
+							padding: "12px 30px",
+							fontSize: "16px",
+							fontWeight: "600",
+							border: "2px solid var(--accent-bg)",
+							borderRadius: "8px",
+							backgroundColor: "var(--accent-bg)",
+							color: "#000",
+							textDecoration: "none",
+							transition: "all 0.3s ease",
+							fontFamily: "var(--font-syne)",
+							display: "inline-block",
+						}}
+						onMouseEnter={(e) => {
+							e.currentTarget.style.backgroundColor = "transparent";
+							e.currentTarget.style.color = "var(--accent-bg)";
+						}}
+						onMouseLeave={(e) => {
+							e.currentTarget.style.backgroundColor = "var(--accent-bg)";
+							e.currentTarget.style.color = "#000";
+						}}
+					>
+						Choose your plan →
+					</Link>
 				</div>
 
 				{/* Filter Tabs */}

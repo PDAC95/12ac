@@ -4,7 +4,7 @@ import HeroContent from "./HeroContent";
 import HeroVideo from "./HeroVideo";
 function Hero() {
 	return (
-		<div className="aximo-hero-section4" style={{ backgroundImage: `url(${HeroBg.src})`, paddingTop: '200px', marginTop: '40px' }}>
+		<div className="aximo-hero-section4" style={{ backgroundImage: `url(${HeroBg.src})`, paddingTop: '200px', marginTop: '80px' }}>
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-8">

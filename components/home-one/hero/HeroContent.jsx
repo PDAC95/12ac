@@ -32,20 +32,19 @@ function HeroContent() {
 		<>
 			<FadeInStaggerTwo className="aximo-hero-content">
 				<FadeInStaggerTwoChildren>
-					<h1>
+					<h1 style={{ fontSize: '4em' }}>
 						<span className="aximo-title-animation">
-							Shaping Your
+							Your Technology
 							<Image src={StarImg} alt="StarImg" />
 						</span>{" "}
-						Vision
+						Department,
 						<br />
-						<span style={{ fontSize: '0.8em' }}>with Technology</span>
+						On Demand
 					</h1>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
 					<p>
-						{`We empower businesses through custom software solutions that drive efficiency, innovation, and growth.
-					Combining creativity and technical expertise to keep our clients ahead in the ever-evolving digital landscape.`}
+						{`We build, operate, and scale your complete digital presence—from custom software and mobile apps to AI automation and marketing—through flexible monthly plans. No massive upfront costs, no hiring headaches.`}
 					</p>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
